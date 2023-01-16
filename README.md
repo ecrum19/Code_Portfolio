@@ -3,6 +3,7 @@ A smattering of scripts that were used for computational aspects of my Master's 
 
 For more context as to the reasons for these scripts or for curiosity about the larger Thesis project, please see EC_Thesis_Final.pdf.
 
+<br>
 
 Create_Dir.py - script used for organizing urinary E. coli sequences for annotation and phage prediction. Also contains methods for checking the redundency of a phage network and the parsing of taxonomic matches from BLAST+ output files from predicted bacteriphage sequences
 
