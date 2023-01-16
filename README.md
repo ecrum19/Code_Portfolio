@@ -5,7 +5,7 @@ For more context as to the reasons for these scripts or for curiosity about the 
 
 <br>
 Files:<br>
-Create_Dir.py - script used for organizing urinary E. coli sequences for annotation and phage prediction. Also contains methods for checking the redundency of a phage network and the parsing of taxonomic matches from BLAST+ output files from predicted bacteriphage sequences <br>
+Create_Dir.py - script used for organizing urinary E. coli sequences for annotation and phage prediction. Also contains methods for checking the redundency of a phage network and the parsing of taxonomic matches from BLAST+ output files from predicted bacteriphage sequences <br><br>
 diff_networks.py - script used to determine the individual predicted phage sequences that belong to particular culsters of the large phage network<br>
 Intact_phage_histogram.r - uses ggplot to produce a graphical representation of numerical data<br>
 edit_distance.py - a script that screens one directory of phage sequences against another to determine if there are idenitcal sequences between the two directories<br>
