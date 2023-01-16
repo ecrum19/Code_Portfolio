@@ -28,7 +28,7 @@ def make_database():
             if '>' in j or j == '':
                 continue
             else:
-                out.write('>%s\n%s\n' % (i[0:20], j))   # figure this out
+                out.write('>%s\n%s\n' % (i[0:20], j)) 
 
     out.close()
     os.system('makeblastdb -in blast_ecs.fasta -out supinfecdb -title supinfecdb -dbtype nucl')
@@ -50,7 +50,7 @@ def pull_results():
 #fix_fastas()
 #make_database()
 #run_blast()
-pull_results()  # run on local terminal -- bioinfo16
+pull_results()  # run on local terminal
 
 
 #makeblastdb -in /media/catherine/ExtraDrive1/Eli_Ecoli/supinfec_blast/Phages_of_interest/i6653.fa -out i6653db -title i6653db -dbtype nucl
