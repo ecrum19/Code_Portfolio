@@ -1,5 +1,5 @@
 # Masters_Thesis_Code
-A smattering of scripts that were used for computational aspects of my Master's Thesis project. Below, the functions of the various scripts are briefly described.
+A smattering of scripts that were used for computational aspects of my Master's Thesis project. Below, the general tasks of the various scripts are briefly described.
 
 For more context as to the reasons for these scripts or for curiosity about the larger Thesis project, please see EC_Thesis_Final.pdf.
 
