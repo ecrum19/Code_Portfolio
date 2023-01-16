@@ -6,9 +6,9 @@ For more context as to the reasons for these scripts or for curiosity about the 
 <br>
 Files:<br>
 Create_Dir.py - script used for organizing urinary E. coli sequences for annotation and phage prediction. Also contains methods for checking the redundency of a phage network and the parsing of taxonomic matches from BLAST+ output files from predicted bacteriphage sequences <br><br>
-diff_networks.py - script used to determine the individual predicted phage sequences that belong to particular culsters of the large phage network<br>
-Intact_phage_histogram.r - uses ggplot to produce a graphical representation of numerical data<br>
-edit_distance.py - a script that screens one directory of phage sequences against another to determine if there are idenitcal sequences between the two directories<br>
+diff_networks.py - script used to determine the individual predicted phage sequences that belong to particular culsters of the large phage network<br><br>
+Intact_phage_histogram.r - uses ggplot to produce a graphical representation of numerical data<br><br>
+edit_distance.py - a script that screens one directory of phage sequences against another to determine if there are idenitcal sequences between the two directories<br><br>
 integrase parse.py - parses PATRIC output files for "Integrase" genes, compares the various integrase sequences, and derives statistics about identified integrase genes<br>
 names.py - used to correct BLAST+ taxonomy outputs for more organized taxonomy grouping<br>
 netprep.r - script developed by Shapiro and Putonti to determine relatedness of bacteriophage sequences based on number of shared genes (doi: 10.1128/mBio.01870-17)<br>
