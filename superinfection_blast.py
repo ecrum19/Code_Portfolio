@@ -44,7 +44,7 @@ def pull_results():
     m = ['i527.fa_output.csv', 'i6653.fa_output.csv', 'i6721.fa_output.csv']
 
     for file in m:
-        os.system('scp catherine@10.23.19.202:/media/catherine/ExtraDrive1/Eli_Ecoli/supinfec_blast/%s /Users/eliascrum/Programs/PythonProjects/Lab/Ecoli/SuperInfectionCheck' % file)
+        os.system('scp catherine@IP:/media/catherine/ExtraDrive1/Eli_Ecoli/supinfec_blast/%s /Users/eliascrum/Programs/PythonProjects/Lab/Ecoli/SuperInfectionCheck' % file)
 
 
 #fix_fastas()
